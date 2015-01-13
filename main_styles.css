@@ -1,0 +1,101 @@
+body {
+  text-align: center;
+}
+
+#head {
+  height: 100px;
+  width: 100px;
+  background-color: #a51842;
+  border-radius: 50%;
+  margin-left: 46%;
+  margin-top: 10%
+}
+
+#body {
+  height: 250px;
+  width: 10px;
+  background-color: #a51842;
+  margin-left: 49.5%;
+  margin-top: -1%;
+}
+
+#arms {
+  margin-top: -15%;
+}
+
+#l_shoulder {
+  width: 10px;
+  height: 70px;
+  background-color: #a51842;
+  -webkit-transform: rotate(45deg);
+  margin-left: 47.5%;
+  margin-top: -9.35%;
+
+}
+
+#r_shoulder {
+  width: 10px;
+  height: 70px;
+  background-color: #a51842;
+  -webkit-transform: rotate(-45deg);
+  margin-left: 51.5%;
+}
+
+#l_forearm {
+  width: 10px;
+  height: 70px;
+  background-color: #a51842;
+  -webkit-transform: rotate(-15deg);
+  margin-left: 46.25%;
+  margin-top: -1.25%;
+}
+
+#r_forearm {
+  width: 10px;
+  height: 70px;
+  background-color: #a51842;
+  -webkit-transform: rotate(15deg);
+  margin-left: 52.5%;
+  margin-top: -1.2%;
+}
+
+#legs {
+  margin-top: 5%;
+}
+
+#l_knee {
+  width: 10px;
+  height: 70px;
+  background-color: #a51842;
+  -webkit-transform: rotate(30deg);
+  margin-left: 48.25%;
+}
+
+#r_knee {
+  width: 10px;
+  height: 70px;
+  background-color: #a51842;
+  -webkit-transform: rotate(-30deg);
+  margin-left: 50.8%;
+  margin-top: -5.2%;
+}
+
+#l_calf {
+  width: 10px;
+  height: 70px;
+  background-color: #a51842;
+  margin-left: 47%;
+  margin-top: -.75%;
+}
+
+#r_calf {
+  width: 10px;
+  height: 70px;
+  background-color: #a51842;
+  margin-left: 52%;
+  margin-top: -5.2%;
+}
+
+#buttons {
+  margin-top: 5%;
+}
