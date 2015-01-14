@@ -8,11 +8,10 @@
     <title>CSS Practice!</title>
     <meta name="description" content="">
     <meta name="author" content="Cami Williams">
-
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
 
-
     <link href = "main_styles.css" type="text/css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
 
   <body onload="">
@@ -29,7 +28,7 @@
 
       <div id = "l_shoulder">
       </div>
-      <div id = "l_forearm">
+      <div id = "l_forearm" class = "still">
       </div>
     </div>
     <div id = "legs">
@@ -43,7 +42,16 @@
       </div>
     </div>
     <div id = "buttons">
-      <button id = "action1">First Action</button>
+      <button id = "waving">Wave</button>
     </div>
+
+    <script>
+    $("#waving").click(function() {
+      $(this).each(function() {
+        $("#l_forearm").removeClass();
+        $("#l_forearm").addClass("waving");
+      });
+    });
+    </script>
   </body>
 </html>
