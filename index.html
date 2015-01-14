@@ -16,33 +16,39 @@
 
   <body onload="">
     <!--I want to make a person where with different actions you can manipulate them-->
-    <div id = "head">
-    </div>
-    <div id = "body">
-    </div>
-    <div id = "arms">
-      <div id = "r_shoulder">
+    <div id="person">
+      <div id = "head" class = "still">
       </div>
-      <div id = "r_forearm">
+      <div id = "body" class = "still">
       </div>
+      <div id = "arms" class = "still">
+        <div id = "r_shoulder" class = "still">
+        </div>
+        <div id = "r_forearm" class = "still">
+        </div>
 
-      <div id = "l_shoulder">
+        <div id = "l_shoulder" class = "still">
+        </div>
+        <div id = "l_forearm" class = "still">
+        </div>
       </div>
-      <div id = "l_forearm" class = "still">
-      </div>
-    </div>
-    <div id = "legs">
-      <div id = "l_knee">
-      </div>
-      <div id = "r_knee">
-      </div>
-      <div id = "l_calf">
-      </div>
-      <div id = "r_calf">
+      <div id = "legs" class = "still">
+        <div id = "l_knee" class = "still">
+        </div>
+        <div id = "r_knee" class = "still">
+        </div>
+        <div id = "l_calf" class = "still">
+        </div>
+        <div id = "r_calf" class = "still">
+        </div>
       </div>
     </div>
     <div id = "buttons">
       <button id = "waving">Wave</button>
+      <button id = "shake">Shake</button>
+      <button id = "fly_in">Fly In</button>
+      <button id = "jump">Jump</button>
+
     </div>
 
     <script>
@@ -50,6 +56,27 @@
       $(this).each(function() {
         $("#l_forearm").removeClass();
         $("#l_forearm").addClass("waving");
+      });
+    });
+
+    $("#shake").click(function() {
+      $(this).each(function() {
+        $("#person").removeClass();
+        $("#person").addClass("shake");
+      });
+    });
+
+    $("#fly_in").click(function() {
+      $(this).each(function() {
+        $("#person").removeClass();
+        $("#person").addClass("fly_in");
+      });
+    });
+
+    $("#jump").click(function() {
+      $(this).each(function() {
+        $("#person").removeClass();
+        $("#person").addClass("jump");
       });
     });
     </script>

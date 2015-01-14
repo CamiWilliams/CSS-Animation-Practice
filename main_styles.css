@@ -132,3 +132,81 @@ body {
   75%  {transform-origin: 0% 0%; transform: rotate(160deg);}
   100% {transform-origin: 0% 0%; transform: rotate(-30deg);}
 }
+
+.shake {
+  animation-name: shake;
+  -webkit-animation-name: shake;
+
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+
+  visibility: visible !important;
+}
+
+@-webkit-keyframes shake {
+  0%   {}
+  25%  {}
+  50%  {}
+  75%  {}
+  100% {}
+}
+
+@keyframes shake {
+  0%   {}
+  25%  {}
+  50%  {}
+  75%  {}
+  100% {}
+}
+
+.fly_in {
+  animation-name: fly_in;
+  -webkit-animation-name: fly_in;
+
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+
+  visibility: visible !important;
+}
+
+@-webkit-keyframes fly_in {
+  0%   {}
+  25%  {}
+  50%  {}
+  75%  {}
+  100% {}
+}
+
+@keyframes fly_in {
+  0%   {}
+  25%  {}
+  50%  {}
+  75%  {}
+  100% {}
+}
+
+.jump {
+  animation-name: jump;
+  -webkit-animation-name: jump;
+
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+
+  visibility: visible !important;
+}
+
+@-webkit-keyframes jump {
+  0%   {}
+  25%  {}
+  50%  {}
+  75%  {}
+  100% {}
+}
+
+@keyframes jump {
+  0%   {}
+  25%  {}
+  50%  {}
+  75%  {}
+  100% {}
+}
