@@ -10,7 +10,7 @@ body {
   z-index: 10;
 }
 
-.b1:hover ~ #l_pupil {
+.b1:hover + #l_pupil {
   margin-top: -23px;
   margin-left: 678px;
 }
